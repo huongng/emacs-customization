@@ -53,22 +53,3 @@
 
 ;; MAGIT customization
 (global-set-key (kbd "C-x g") 'magit-status)
-
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8bb8a5b27776c39b3c7bf9da1e711ac794e4dc9d43e32a075d8aa72d6b5b3f59" "4d80487632a0a5a72737a7fc690f1f30266668211b17ba836602a8da890c2118" default)))
- '(package-selected-packages
-   (quote
-    (magit git sourcerer-theme solarized-theme greymatters-theme exec-path-from-shell avy auto-complete ahungry-theme))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
